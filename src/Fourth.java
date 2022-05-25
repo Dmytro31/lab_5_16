@@ -2,30 +2,29 @@ import java.util.Scanner;
 
 public class Fourth {
     public static void main(String[] args){
-        int attempts = 0;
-        int[] cam = new int[3];
         int a = 0;
-        while(a < cam.length) {
+        int i = (int) (Math.random() * 2 + 1);
+        System.out.println(i);
+        System.out.println("Вгадай число із 3 спроб");
+        while (a != 3) {
+            Scanner sc = new Scanner(System.in);
+            int name = sc.nextInt();
             a++;
-            int i = (int) (Math.random() * 2 + 1);
-            System.out.println(i);
-        }
-        int[] s = new int[3];
-        while (attempts != 2){
-            attempts++;
-            int f = 0;
-            while (f < s.length){
-                f++;
-                Scanner san = new Scanner(System.in);
-                System.out.println("Числа");
-                s[f] = san.nextInt();
-            }
-            if (cam == s){
-                System.out.println("v");
+            if (name == i) {
+                System.out.println("win");
+                break;
+            } else if (name == i) {
+                System.out.println("win");
+                break;
+            } else if (name == i) {
+                System.out.println("win");
                 break;
             }else {
-                System.out.println("dfd");
+                System.out.println("luze");
             }
-        }
+
+        }  
     }
 }
+
+        
