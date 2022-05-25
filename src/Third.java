@@ -11,4 +11,5 @@ public class Third {
         }else {
             System.out.println("Складається з трьох знаків");
         }
+    }     
 }
