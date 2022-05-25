@@ -20,7 +20,7 @@ public class Fourth {
                 System.out.println("win");
                 break;
             }else {
-                System.out.println("luze");
+                System.out.println("loss");
             }
 
         }  
